@@ -16,7 +16,7 @@ This project implements a Single-Cycle RISC-V Processor that supports the RV32I 
 
 In a single-cycle design, each instruction is fetched, decoded, executed, and written back within one clock cycle. This makes the design simple and easy to understand but results in a longer clock period since the cycle time must accommodate the slowest instruction (e.g., load).
 
-🔧 Key Features
+Key Features
 
 RV32I Instruction Set – Implements arithmetic, logical, load/store, branch, and jump instructions.
 
@@ -28,7 +28,7 @@ Control Logic – Centralized control unit generates control signals based on in
 
 Parameterizable Memory – Instruction and data memory sizes can be easily modified.
 
-📐 Architecture Overview
+Architecture Overview
 
 Fetch: Program Counter (PC) selects instruction from Instruction Memory.
 
